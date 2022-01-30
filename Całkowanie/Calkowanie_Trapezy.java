@@ -5,8 +5,8 @@ public class Calkowanie_Trapezy {
 	public static double value(double x)
 	{
 		return (2*Math.pow(x, 5)-Math.pow(x, 4)+5*Math.pow(x, 3))/(3*Math.pow(x, 4)+5);
-		//return Math.sin(0.5*x+0.1)/(2.2+Math.sqrt(0.7*x*x+1.4)); // wzór funkcji
-		//return x*x*Math.sqrt(1+x)/(1+x*x); // wzór z pdf na sprawdzenie
+		//return Math.sin(0.5*x+0.1)/(2.2+Math.sqrt(0.7*x*x+1.4)); // wzÃ³r funkcji
+		//return x*x*Math.sqrt(1+x)/(1+x*x); // wzÃ³r z pdf na sprawdzenie
 		//   return Math.sqrt(x*x+0.5)/(1.2+Math.sqrt(0.8*x*x+1.1));
 	}
 	
@@ -30,15 +30,15 @@ public class Calkowanie_Trapezy {
 			value = value(i); 
 			System.out.println(i);
 			//System.out.println("f("+i+")="+value+" ");
-			result+=value; // dodajemy kolejno wartoœci tworz¹c nawias (f(a) + f(x1)+ ... + f(xn-i) + f(b))
+			result+=value; // dodajemy kolejno wartoÅ“ci tworzÂ¹c nawias (f(a) + f(x1)+ ... + f(xn-i) + f(b))
 		}
 		
-		// odejmujemy nadmiarowe wartoœci z pêtli
+		// odejmujemy nadmiarowe wartoÅ“ci z pÃªtli
 		result -= (value(a)/2);
 		result -= (value(b)/2);
 		
 		
-		result *= h; // ca³ka = h * (f(a)/2 + f(x1)+ ... + f(xn-i) + f(b)/2)
+		result *= h; // caÂ³ka = h * (f(a)/2 + f(x1)+ ... + f(xn-i) + f(b)/2)
 		
 		System.out.println("Wynik: "+result);
 	}
