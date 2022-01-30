@@ -49,9 +49,9 @@ public class Progressive_Newton_Interpolation {
 			
 			for(int q=0; q<p; q++)
 			{
-				product*=(x-a[q]); // mnozymy u³amek przez kolejne nawiasy (x-xi)
+				product*=(x-a[q]); // mnozymy uÂ³amek przez kolejne nawiasy (x-xi)
 			}
-			result+=product; // dodajemy powsta³e iloczyny uzyskuj¹c wynik koncowy
+			result+=product; // dodajemy powstaÂ³e iloczyny uzyskujÂ¹c wynik koncowy
 		}
 		
 		return result;
@@ -67,12 +67,12 @@ public class Progressive_Newton_Interpolation {
 		
 		if(arguments.length!=values.length)
 		{
-			System.out.println("Nieprawid³owe dane.");
+			System.out.println("NieprawidÂ³owe dane.");
 			System.exit(0);
 		}
 		
 		int n = values.length;
-		double h = arguments[1]-arguments[0]; // zak³adamy ¿e wêz³y s¹ równoleg³e
+		double h = arguments[1]-arguments[0]; // zakÂ³adamy Â¿e wÃªzÂ³y sÂ¹ rÃ³wnolegÂ³e
 		System.out.println(newton(arguments,values,x,n,h));
 
 	}
