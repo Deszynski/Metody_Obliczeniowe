@@ -64,7 +64,7 @@ public class Newton_Interpolation {
 		
 		if(arguments.length!=values.length)
 		{
-			System.out.println("Nieprawid≥owe dane.");
+			System.out.println("Nieprawid≈Çowe dane.");
 			System.exit(0);
 		}
 		
