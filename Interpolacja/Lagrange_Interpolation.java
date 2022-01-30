@@ -33,7 +33,7 @@ public class Lagrange_Interpolation {
 		//
 		if(arguments.length!=values.length)
 		{
-			System.out.println("Nieprawid³owe dane.");
+			System.out.println("NieprawidÂ³owe dane.");
 			System.exit(0);
 		}
 		int n = values.length;
