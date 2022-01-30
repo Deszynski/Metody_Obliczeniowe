@@ -3,7 +3,7 @@ public class Aproksymacja_Najmniejsze_Kwadraty {
 	
 	public static double value(double x)
 	{
-		return Math.sqrt(x*x+2*x+4); // wzór funkcji		
+		return Math.sqrt(x*x+2*x+4); // wzÃ³r funkcji		
 	}
 	
 	public static double wielomian(double x, double [] wspolczynniki)
@@ -32,7 +32,7 @@ public class Aproksymacja_Najmniejsze_Kwadraty {
 			//System.out.println(val[i]+System.lineSeparator());
 		}
 	
-		// liczba punktów n
+		// liczba punktÃ³w n
 		if(arg.length!=val.length)
 			System.exit(13);
 		int n = arg.length;
