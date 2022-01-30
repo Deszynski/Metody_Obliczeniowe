@@ -4,8 +4,8 @@ public class Calkowanie_Simpsona {
 	
 	public static double value(double x)
 	{
-		return Math.sqrt(x*x+0.5)/(1.2+Math.sqrt(0.8*x*x+1.1)); // wzór funkcji
-		//return x*x*Math.sqrt(1+x)/(1+x*x); // wzór z pdf na sprawdzenie
+		return Math.sqrt(x*x+0.5)/(1.2+Math.sqrt(0.8*x*x+1.1)); // wzÃ³r funkcji
+		//return x*x*Math.sqrt(1+x)/(1+x*x); // wzÃ³r z pdf na sprawdzenie
 	}
 
 	public static void main(String[] args) 
