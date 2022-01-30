@@ -128,7 +128,7 @@ public class Aproksymacja_Sredniokwadratowa_Ciagla {
 		 
 	public static double value(double x) 
 	{
-		return Math.sqrt(x*x+2*x+4); // wzór funkcji
+		return Math.sqrt(x*x+2*x+4); // wzÃ³r funkcji
 	}
 		 
 	public static double fi(double x, int y) 
