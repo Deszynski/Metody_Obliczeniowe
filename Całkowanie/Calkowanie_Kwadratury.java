@@ -4,7 +4,7 @@ public class Calkowanie_Kwadratury {
 	
 	public static double value(double x)
 	{
-		return Math.sqrt(x*x+0.5)/(1.2+Math.sqrt(0.8*x*x+1.1)); // wzór funkcji
+		return Math.sqrt(x*x+0.5)/(1.2+Math.sqrt(0.8*x*x+1.1)); // wzÃ³r funkcji
 	}
 
 	public static void main(String[] args) 
