@@ -4,7 +4,7 @@ public class Aproksymacja_Wielomiany_Ortogonalne {
 	
 	public static double value(double x) 
 	{
-		return Math.sqrt(Math.pow(x, 2)+2*x+4); // wzór funkcji
+		return Math.sqrt(Math.pow(x, 2)+2*x+4); // wzÃ³r funkcji
 	}
 	
 	public static double legendre(int index, double x) 
